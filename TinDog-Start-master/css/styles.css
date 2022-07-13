@@ -1,0 +1,167 @@
+h1 {
+   font-family: Montserrat;  font-size: 3.5rem;  line-height: 1.5;  font-weight: 900;
+ }
+
+ #title{
+   background-color: #ff4c68;
+   color: white;
+ }
+
+ h3{
+   font-family: "Montserrat-bold";
+   font-size: 1.2rem;
+   font-weight: bold;
+ }
+ p{
+   color: #8f8f8f;
+ }
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+body{
+  font-family: Montserrat;
+}
+
+/* navigation bar */
+.navbar-brand{
+  font-family: ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar{
+  padding:0 0 4.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: Montserrat;
+}
+
+/* download-button */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* title-image */
+.title-image{
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+
+
+}
+
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+.avtoo{
+  width: 200px;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+.icon{
+  color: #ef8174;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+/* testimonials */
+#testimonials{
+  padding-top: 7%;
+  background-color: #ef8174;
+  text-align: center;
+  color: white;
+}
+.carouselExampleSlidesOnly{
+  padding: 7% 15%;
+}
+h2{
+  font-weight: bold;
+}
+.carousel-item{
+  margin-bottom: 5%;
+}
+.test-img{
+  width: 10%;
+  border-radius: 100%;
+
+}
+.test{
+  margin-bottom:10%;
+  padding: 0 10% 0 10%;
+}
+
+#press{
+  background-color: #ef8174;
+  text-align: center;
+  padding-bottom: 30px;
+
+}
+.press-img{
+  width: 15%;
+  margin: 20px 20px 35px;
+}
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+
+@media (max-width: 995px){
+  .title-image{
+    position: static;
+    transform: rotate(0);
+
+  }
+  #title{
+    text-align: center;
+  }
+}
+
+.last-section{
+  background-color:#ff4c68;
+  padding: 3%;
+  text-align: center;
+  color: white;
+}
+
+.last-class{
+  font-size: 2rem;
+  padding: 3% 30% 5% 30%;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+.oqro{
+  margin-right: 5px;
+}
+.oqroo{
+  margin: 0 2% 4% 2%;
+}
+#footer{
+  padding: 5%;
+  text-align: center;
+}
+
+.Copyright{
+  padding-top: 12px;
+}
+.logos{
+  padding: 0 5px 0 5px;
+}
